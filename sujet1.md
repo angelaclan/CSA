@@ -12,7 +12,7 @@ LLVM, a partir du langage python.
 
 ## Préparation
 
-Clonez le dépot à l'adresse {{TODO_REPO_LLVMLITE_TP}}, et compilez l'exemple
+Compilez l'exemple dans PartieAnalyseStatique
 (dans le sous-dossier example/) avec "make". 
 Si tout se passe bien, vous devriez avoir le message "Test OK".
 Pour commencer à travailler, vous pouvez faire une copie du dossier "example"

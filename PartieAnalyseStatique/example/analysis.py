@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.8
+#!/usr/bin/env python3.7
 import sys
 sys.path.append("../llvmlite/lib/python3.7/site-packages")
 from ctypes import CFUNCTYPE, c_double, c_int, c_char_p, POINTER, c_char, cast

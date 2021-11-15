@@ -38,11 +38,11 @@ for bb in graph.bbs:
         print("    Cible: ", i.name)
         print("    Opcode: ", i.opcode)
         for o in i.operands:
-            if o.name is "":
-                #type + valeur immediate
-                print("      Operand[valeur]: ", o)
+            if o.name == "":
+                #type + litteral 
+                print("      Operand[litteral]: ", o)
             else:
-                #variable
-                print("      Operand[variable]: ", o.name)
+                #valeur 
+                print("      Operand[valeur]: ", o.name)
     print("")
 

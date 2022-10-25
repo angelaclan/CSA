@@ -28,7 +28,7 @@ f = target_module.get_function("func")
 cfg = binding.get_function_cfg(f)
 graph = Graph(f) #grqph containing the CFG
 
-# Check CFG is connected and accessible
+# Check dominance relationship between each base block.
 for bb in graph.bbs:
     print("block : ", bb)
 
@@ -81,7 +81,9 @@ def run():
 
     for s in state:
         print(s, "dominated by: ", state[s])
-    
         #check if there is any back edge from state[s]
         
+# check accessibility by checking if a block has a dominator
+def access():
+
 run()
